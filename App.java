@@ -38,6 +38,10 @@ public class App {
         writer.write(lastName + "\r\n");
         writer.write(Integer.toString(grade) + "\r\n");
         writer.write(school);
+        //read from the file
+        System.out.println(fullName);
+        System.out.println(Integer.toString(grade));
+        System.out.println(school);
         //close the objects no longer in use
         writer.close();
         input.close();
